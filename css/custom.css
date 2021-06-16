@@ -1,0 +1,82 @@
+.add-edit-customers-vendors  .form-control{
+    border:0;
+    border-radius:0;
+    border-bottom:1px solid #666 !important;
+    transition:0.2s;    
+    padding:0;
+}
+
+.add-edit-customers-vendors  .form-control:focus{    
+    box-shadow: none !important;    
+    border-bottom:1.5px solid #fb9678 !important;
+    color: #fa7b54;
+    font-weight: 600;
+}
+.add-edit-customers-vendors  textarea.form-control:focus{    
+    box-shadow: none !important;    
+    border-bottom:1.5px solid #fb9678 !important;
+    color:initial;
+    font-weight: initial;
+}
+
+.add-edit-customers-vendors .label{
+    margin-bottom:0;
+}
+
+@media screen and (min-width:1000px){
+#edit-info .my_popup{
+    width:60%;    
+}
+}
+
+.single-customer .activity-table * {
+    font-size:13px;
+}
+
+
+.hidden{
+    display:none;
+}
+.visible {
+    display: block;
+}
+
+
+
+
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.dark{
+    filter:invert(0.86) hue-rotate(180deg);
+}
+.dark-obj{
+    filter:invert(1) hue-rotate(170deg);
+}
+
+
+
+
+@media print {
+    input[type=hidden] {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 640px){
+    div.dt-buttons {
+    margin: 20px auto;
+}
